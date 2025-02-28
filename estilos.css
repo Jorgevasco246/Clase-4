@@ -139,17 +139,6 @@
 .imagen img {
     width: 100%;
 }
-.imagen p {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 10px 0 0;
-
-}
-.imagen h3 {
-    font-weight: bold;
-    margin: 5px 0 0;
-
-}
 .imagen p, h3 {
     background-color: gainsboro;
     width: 100%;
@@ -159,4 +148,5 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    z-index: 4;
 }
